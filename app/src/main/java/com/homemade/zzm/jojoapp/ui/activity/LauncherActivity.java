@@ -20,6 +20,6 @@ public class LauncherActivity extends BaseActivity {
         LauncherActivity.this.finish();
       }
     };
-    timer.schedule(timerTask, 1000 * 3);
+    timer.schedule(timerTask, 1000 * 1);
   }
 }
