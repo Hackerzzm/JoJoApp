@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.MainActivity">
+  <!--actionViewClass : 这句代码最关键，实现了主要的搜索视图功能-->
+  <!--orderInCategory : actionbar里每个item的优先级,值越大优先级越低,actionbar地方不够就会放到overflow中-->
+  <item
+      android:id="@+id/ab_search"
+      android:orderInCategory="80"
+      android:title="搜帖"
+      app:actionViewClass="android.support.v7.widget.SearchView"
+      app:showAsAction="ifRoom"/>
+</menu>

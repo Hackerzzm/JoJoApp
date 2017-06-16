@@ -20,12 +20,6 @@
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
-    <activity
-        android:name=".ui.activity.ColorTranslucentBarActivity"
-        android:theme="@style/ColorTranslucentTheme">
-    </activity>
-    <activity android:name=".ui.activity.ToolBarActivity">
-    </activity>
   </application>
 
 </manifest>

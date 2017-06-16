@@ -18,8 +18,14 @@ public class MainActivity extends BaseActivity {
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
     mToolbar = (Toolbar) findViewById(R.id.toolbar);
+    setSupportActionBar(mToolbar);
+
+    mToolbar.setTitle("第三部 星尘十字军");
+    mToolbar.setTitleTextColor(getResources().getColor(android.R.color.white));//设置主标题颜色
+    mToolbar.setTitleTextAppearance(this, R.style.Theme_ToolBar_Base_Title);//修改主标题的外观，包括文字颜色，文字大小等
+    //mToolbar.inflateMenu(R.menu.menu_main);//设置右上角的填充菜单
+
     mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
     mActionBarDrawerToggle =
         new ActionBarDrawerToggle(this, mDrawerLayout, mToolbar, R.string.open, R.string.close);
