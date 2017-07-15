@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item_1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="幻影之血"/>
+    <item
+        android:id="@+id/item_2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="战斗潮流"/>
+    <item
+        android:id="@+id/item_3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="星尘斗士"/>
+    <item
+        android:id="@+id/item_4"
+        android:icon="@mipmap/ic_launcher"
+        android:title="不灭钻石"/>
+    <item
+        android:id="@+id/item_5"
+        android:icon="@mipmap/ic_launcher"
+        android:title="黄金之风"/>
+    <item
+        android:id="@+id/item_6"
+        android:icon="@mipmap/ic_launcher"
+        android:title="石之海"/>
+    <item
+        android:id="@+id/item_7"
+        android:icon="@mipmap/ic_launcher"
+        android:title="飙马野郎"/>
+  </group>
+
+  <item android:title="设置">
+    <menu>
+      <item
+          android:id="@+id/subitem_01"
+          android:icon="@mipmap/ic_launcher"
+          android:title="清理缓存"/>
+      <item
+          android:id="@+id/subitem_02"
+          android:icon="@mipmap/ic_launcher"
+          android:title="评分"/>
+      <item
+          android:id="@+id/subitem_03"
+          android:icon="@mipmap/ic_launcher"
+          android:title="下载离线包"/>
+    </menu>
+  </item>
+
+  <item android:title="其他">
+    <menu>
+      <item
+          android:id="@+id/subitem_04"
+          android:icon="@mipmap/ic_launcher"
+          android:title="卷首语"/>
+      <item
+          android:id="@+id/subitem_05"
+          android:icon="@mipmap/ic_launcher"
+          android:title="访谈"/>
+      <item
+          android:id="@+id/subitem_06"
+          android:icon="@mipmap/ic_launcher"
+          android:title="替身来源"/>
+      <item
+          android:id="@+id/subitem_07"
+          android:icon="@mipmap/ic_launcher"
+          android:title="家谱"/>
+    </menu>
+  </item>
+</menu>

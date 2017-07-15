@@ -1,3 +1,3 @@
-include ':app', ':AndroidSystemUiTraining', ':MaterialSearchView-sample',
+include ':app', ':AndroidSystemUiTraining', ':MaterialSearchView-sample', ':mydemos',
     ':MaterialSearchView-library', ':searchviewlayout-sample', ':searchviewlayout-library',
-    ':PictureInPicture-app'
+    ':PictureInPicture-app', ':CoorAndDrawerTest'
